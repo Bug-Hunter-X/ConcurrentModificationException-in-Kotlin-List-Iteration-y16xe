@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Kotlin when modifying a list while iterating over it.  The example uses a `for` loop and the `remove()` method on a `MutableList`.  This often leads to a `ConcurrentModificationException` or unexpected results because the iterator gets confused when the list's structure changes during iteration. The solution shows safer alternatives.
